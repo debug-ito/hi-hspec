@@ -1,3 +1,10 @@
-module $moduleName where
+-- |
+-- Module: $moduleName
+-- Description:
+-- Maintainer: $author <$email>
+-- 
+module $moduleName (
+  
+) where
 
-import $moduleName.Internal
+
