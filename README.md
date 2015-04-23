@@ -3,26 +3,10 @@ hi-hspec
 
 A template for [hi](https://github.com/fujimura/hi).
 
-example:
+This is a modified version of `hi-hspec` designed specifically for me.
 
-```
-$ hi -m Foo.Bar -p foo-bar  -r git@github.com:fujimura/hi-hspec.git
-$ tree
-.
-├── LICENSE
-├── README.md
-├── foo-bar.cabal
-├── src
-│   └── Foo
-│       ├── Bar
-│       │   └── Internal.hs
-│       └── Bar.hs
-└── test
-    ├── Foo
-    │   └── BarSpec.hs
-    └── Spec.hs
+* The original `hi-hspec`: https://github.com/fujimura/hi-hspec
 
-5 directories, 7 files
-```
+Modified by Toshio Ito.
 
 Copyright 2013-2014 Fujimura Daisuke, under the MIT license.
