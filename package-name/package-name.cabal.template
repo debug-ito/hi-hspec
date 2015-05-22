@@ -6,6 +6,7 @@ license:                BSD3
 license-file:           LICENSE
 -- synopsis:               
 -- description:            
+-- category:               
 cabal-version:          >= 1.10
 build-type:             Simple
 extra-source-files:     README.md, ChangeLog.md
