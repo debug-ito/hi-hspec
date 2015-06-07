@@ -10,6 +10,8 @@ license-file:           LICENSE
 cabal-version:          >= 1.10
 build-type:             Simple
 extra-source-files:     README.md, ChangeLog.md
+-- homepage:               
+-- bug-reports:            
 
 library
   default-language:     Haskell2010
