@@ -36,6 +36,7 @@ test-suite spec
   hs-source-dirs:       test
   ghc-options:          -Wall
   main-is:              Spec.hs
+  other-modules:        ${moduleName}Spec
   build-depends:        base, $packageName,
                         hspec
 
