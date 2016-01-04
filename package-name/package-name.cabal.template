@@ -16,7 +16,7 @@ extra-source-files:     README.md, ChangeLog.md
 library
   default-language:     Haskell2010
   hs-source-dirs:       src
-  ghc-options:          -Wall
+  ghc-options:          -Wall -fno-warn-unused-imports
   exposed-modules:      $moduleName
   -- other-modules:
   build-depends:        base >= 4 && < 5
@@ -25,7 +25,7 @@ library
 --   default-language:     Haskell2010
 --   hs-source-dirs:       src
 --   main-is:              Main.hs
---   ghc-options:          -Wall
+--   ghc-options:          -Wall -fno-warn-unused-imports
 --   -- other-modules:       
 --   -- other-extensions:    
 --   build-depends:        base >=4 && <5
@@ -34,7 +34,7 @@ test-suite spec
   type:                 exitcode-stdio-1.0
   default-language:     Haskell2010
   hs-source-dirs:       test
-  ghc-options:          -Wall
+  ghc-options:          -Wall -fno-warn-unused-imports
   main-is:              Spec.hs
   other-modules:        ${moduleName}Spec
   build-depends:        base, $packageName,
