@@ -3,8 +3,6 @@
 -- Description:
 -- Maintainer: $author <$email>
 -- 
-module $moduleName (
-  
-) where
-
+module $moduleName
+       () where
 
