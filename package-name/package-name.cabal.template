@@ -1,5 +1,5 @@
 name:                   $packageName
-version:                0.0.0
+version:                0.1.0.0
 author:                 $author <$email>
 maintainer:             $author <$email>
 license:                BSD3
