@@ -18,8 +18,9 @@ library
   hs-source-dirs:       src
   ghc-options:          -Wall -fno-warn-unused-imports
   -- default-extensions:   
+  -- other-extensions:     
   exposed-modules:      $moduleName
-  -- other-modules:
+  -- other-modules:        
   build-depends:        base
 
 -- executable $packageName
@@ -27,8 +28,9 @@ library
 --   hs-source-dirs:       app
 --   main-is:              Main.hs
 --   ghc-options:          -Wall -fno-warn-unused-imports
---   -- other-modules:       
---   -- other-extensions:    
+--   -- other-modules:        
+--   -- default-extensions:   
+--   -- other-extensions:     
 --   build-depends:        base
 
 test-suite spec
@@ -38,6 +40,7 @@ test-suite spec
   ghc-options:          -Wall -fno-warn-unused-imports "-with-rtsopts=-M512m"
   main-is:              Spec.hs
   -- default-extensions:   
+  -- other-extensions:     
   other-modules:        ${moduleName}Spec
   build-depends:        base, $packageName,
                         hspec
